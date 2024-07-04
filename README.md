@@ -1,6 +1,7 @@
 The project given was to code variables in JavaScript.
 It focused on using arrays and functions to make a tangible and legible project.
 The 3 main questions were:
+
       a. Student Grade Generator- This prompted the user to input student grades scored. 
                                   The function that I primarily used was 'let' to assign variables.
                                   
