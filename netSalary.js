@@ -1,6 +1,6 @@
 function netSalary(){
     let basicSalary = parseInt(prompt("Enter Basic Salary: "));
-    let benefits = parseInt(prompt("Enter Benefits Received:"))
+    let benefits = parseInt(prompt("Enter Benefits Received:"));
     let grossSalary = basicSalary + benefits;
 
 //This is to calculate paye
