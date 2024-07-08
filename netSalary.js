@@ -3,11 +3,9 @@ function netSalary(){
     let benefits = parseInt(prompt("Enter Benefits Received:"))
     let grossSalary = basicSalary + benefits;
 
-
 //This is to calculate paye
     // Assigned the paye
     let paye = 0;
-    
         // Then added conditions for respective input values
         if (grossSalary <= 24000){
             paye = grossSalary * 0.1;
@@ -81,6 +79,9 @@ function netSalary(){
 
 // NSSF Deductions
     let nssfDeductions = grossSalary * 0.06;
+
+// Calculate the net salary
+    let netSalary = grossSalary - paye - nhifDeductions - nssfDeductions;
 
 // Finally
     console.log(`GrossSalary: ${grossSalary}`);
