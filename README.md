@@ -15,8 +15,7 @@ The grading scale used is as follows:
 * E: 0-39
 **NB**
 * Invalid input (non-numeric or out of range) will result in "Invalid" being logged to the console.
-* This program does not store or track student grades; it is a simple, one-time calculation.
-
+  
 
 Speed Detector - A simple JavaScript program to detect the speed of a car and issue demerit points or                      suspend the license if the speed exceeds the limit.
 ==============
@@ -39,6 +38,22 @@ The demerit points system used is as follows:
 * If the input speed is 120 km/h, the output will be "License Suspended".
 **NB**
 * Invalid input (non-numeric or negative) will result in incorrect results.
-* This program does not store or track driver information; it is a simple, one-time calculation.
 
+
+Net Salary Calculator - This is a JavaScript program that calculates an individual's net salary based on 			their basic salary and benefits. The program takes into account PAYE, NHIF, and 			NSSF deductions.
+=====================
+**How to Use**
+1. Open the netSalary.js file in a browser or Node.js environment.
+2. Run the program by calling the netSalary() function.
+3. Enter the basic salary and benefits when prompted.
+4. The program will log the results to the console, including the gross salary, PAYE, NHIF deductions, NSSF deductions, and net salary.
+**Calculations**
+*PAYE: Calculated based on the gross salary using a tiered system.
+*NHIF: Calculated based on the gross salary using a tiered system.
+*NSSF: Calculated as 6% of the gross salary.
+*Net Salary: Calculated by subtracting the PAYE, NHIF, and NSSF deductions from the gross salary.
+
+
+**Author**
+[Christian Kwe]
 
